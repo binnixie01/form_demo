@@ -40,12 +40,12 @@ img#back{
 
 }
 .header{
-    padding: 10rem 5rem 3rem 5rem;
+    padding: 5em 5rem 3rem 5rem;
     /* width: 80%; */
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: gray;
+    background-color: rgb(245, 236, 236);
 }
 
 .sec_l{
@@ -53,7 +53,7 @@ img#back{
     display: flex;
     flex-direction: column;
     width: 30vw;
-    padding-top: 10rem;
+    padding-top: 7rem;
     background-color: rgba(0, 0, 0, 0.7);
     align-items: center;
 }
@@ -77,4 +77,20 @@ img#odin{
 position: absolute;
 top: 16rem;
 left: 7rem;
+}
+
+input[type=submit]{width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+
+}
+
+.row input{
+    height: 2rem;
+    width: 15rem;
+}
+
+.lets{
+
+    padding-top: 2rem;
 }
